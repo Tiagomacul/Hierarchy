@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-01-24 18:26:08">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Hierarchy</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>992d7cf7473331100a89bb30116d43c1</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>8056b9b7473731100a89bb30116d438d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_sys_user_u_manager_l4_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_manager_l4" label="Manager L4" language="en" table="sys_user"><sys_documentation action="INSERT_OR_UPDATE"><element>u_manager_l4</element><help/><hint/><label>Manager L4</label><language>en</language><name>sys_user</name><plural>Manager L4s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:54:56</sys_created_on><sys_id>d6f50d73477331100a89bb30116d43f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager L4</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_u_manager_l4_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:54:56</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1800993957</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>0056b9b7473731100a89bb30116d438f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf78fd70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L4</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>96f54d73ec733110dddbad4d79222215</update_guid>
+<update_guid_history>96f54d73ec733110dddbad4d79222215:1800993957</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_sys_user_u_manager_l5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_manager_l5" table="sys_user"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Manager L5&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_manager_l5&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sys_user&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 14:55:35&lt;/sys_created_on&gt;&lt;sys_id&gt;94068d73477331100a89bb30116d43aa&lt;/sys_id&gt;&lt;sys_name&gt;Manager L5&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sys_user_u_manager_l5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 14:55:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1122396579</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>0456b9b7473731100a89bb30116d438e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf82a8e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L5</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>002641b34d733110ac7a939e5281842d</update_guid>
+<update_guid_history>002641b34d733110ac7a939e5281842d:1122396579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="5134502bc611227c019dbdc4d7e32319" sys_domain="global" table="sys_user" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>user_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>6dddb83b473331100a89bb30116d4383</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>first_name</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>25ddb83b473331100a89bb30116d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_name</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a5ddb83b473331100a89bb30116d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>title</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>29ddb83b473331100a89bb30116d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>department</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a9ddb83b473331100a89bb30116d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user_password</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>2dddb83b473331100a89bb30116d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>manager</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>adddb83b473331100a89bb30116d4384</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>password_needs_reset</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>21ddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>locked_out</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a1ddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>25ddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>web_service_access_only</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a5ddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>internal_integration_user</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>29ddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a9ddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>2dddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>preferred_language</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>adddb83b473331100a89bb30116d4385</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>notification</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>21ddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>calendar_integration</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a1ddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>time_zone</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>25ddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_format</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a5ddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>phone</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>29ddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mobile_phone</element><position>20</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>a9ddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>photo</element><position>21</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>2dddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>22</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:19:22</sys_created_on><sys_id>adddb83b473331100a89bb30116d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:19:22</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manager_l2</element><position>23</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:52:57</sys_created_on><sys_id>9d854173477331100a89bb30116d4338</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:52:57</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manager_l3</element><position>24</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:53:37</sys_created_on><sys_id>1fa54573477331100a89bb30116d4387</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:53:37</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manager_l4</element><position>25</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:54:56</sys_created_on><sys_id>1af50d73477331100a89bb30116d43f5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:54:56</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manager_l5</element><position>26</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:55:35</sys_created_on><sys_id>0c2641b3477331100a89bb30116d430e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:55:35</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_manager_path</element><position>27</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 16:21:34</sys_created_on><sys_id>9bc9d5f747b331100a89bb30116d43e8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="Default view">5134502bc611227c019dbdc4d7e32319</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 16:21:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sys_user</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>GUEST</sys_created_by><sys_created_on>2004-05-02 00:00:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>5134502bc611227c019dbdc4d7e32319</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sys_user</sys_name><sys_overrides/><sys_package display_value="Non Interactive Sessions" source="com.glide.security.non_interactive_users">3edf40a4d9f13110cedf7dffddb48fa2</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_5134502bc611227c019dbdc4d7e32319</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2012-07-24 20:17:36</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-970047482</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>0c56b9b7473731100a89bb30116d438f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3c46dfd60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>dfc9d5f7c2b331101e0516799d6aeaeb</update_guid>
+<update_guid_history>dfc9d5f7c2b331101e0516799d6aeaeb:-970047482,c82641b3f07331101480a0be4481c111:-1137621191,96f50d734c733110dca8effed5bae3f8:-2137992573,5ba5457304733110b54d8736340bcb8a:-729147845,1d85417354733110203e7e85c9121d3b:440507205,69ddb83bee33311032447ef4d8934a89:1098358077,19dd7cf7a033311050acb7395142f415:578819981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_sys_user_u_manager_l4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_manager_l4" table="sys_user"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Manager L4&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_manager_l4&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sys_user&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 14:54:55&lt;/sys_created_on&gt;&lt;sys_id&gt;41e58973477331100a89bb30116d43b7&lt;/sys_id&gt;&lt;sys_name&gt;Manager L4&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sys_user_u_manager_l4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 14:54:55&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-721428893</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>4056b9b7473731100a89bb30116d438e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf78fc10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L4</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>daf54d73e8733110fc73f3bf71d18113</update_guid>
+<update_guid_history>daf54d73e8733110fc73f3bf71d18113:-721428893</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_381c78b7473331100a89bb30116d4356</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.hierarchy&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;hierarchy&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var hierarchy = Class.create();
+hierarchy.prototype = {
+    initialize: function() {
+    },
+
+
+	getUser: function(userID){
+		var grU = new GlideRecord('sys_user');
+		grU.addQuery('sys_id',userID);
+		grU.query();
+		if (grU.next())
+		{return grU;}
+	},
+	
+	//Retornar o gerente / superior direto
+	//Retorna o nome
+
+	getManagerArray: function(userID){
+		var manager = [];
+		var output ="";
+		var grU = new GlideRecord('sys_user');
+		grU.addQuery('sys_id',userID);
+		grU.query();
+		grU.next();
+		if(grU.manager){
+			output=grU.manager.getDisplayValue()+' -&gt; '+output;
+			manager.push(grU.getValue("sys_id"));
+			manager.push(grU.manager.getDisplayValue());
+
+		}
+		return output;		
+	},
+	
+	//Retornar o gerente / superior direto
+	//Retorna o nome
+
+	getManager: function(userID){
+		var manager = [];
+		var output ="";
+		var grU = new GlideRecord('sys_user');
+		grU.addQuery('sys_id',userID);
+		grU.query();
+		grU.next();
+		if(grU.manager){
+			output=grU;
+		}
+		return output;		
+	},
+	
+	//Retornar o manager do manager
+	//Retorna o glideRecord
+	getL2Manager: function(userID){
+		var manager = [];
+		var output ="";
+		var grU = new GlideRecord('sys_user');
+		grU.addQuery('sys_id',userID);
+		grU.query();
+		grU.next();
+		if(grU.manager){
+			output=this.getUser(grU.manager.manager);//.manager.getDisplayValue()+' -&gt; '+output;
+			manager.push(grU.getValue("sys_id"));
+			manager.push(grU.manager.getDisplayValue());
+
+		}
+		return output;		
+	},
+	
+	//Retornar o L3 = manager do manager do manager
+	//Retorna o glideRecord
+	//Do Nivel mais baixo seria o GS
+	getL3Manager: function(userID){
+		var manager = [];
+		var output ="";
+		var grU = new GlideRecord('sys_user');
+		grU.addQuery('sys_id',userID);
+		grU.query();
+		grU.next();
+		if(grU.manager){
+			output=this.getUser(grU.manager.manager.manager);//.manager.getDisplayValue()+' -&gt; '+output;
+			manager.push(grU.getValue("sys_id"));
+			manager.push(grU.manager.getDisplayValue());
+
+		}
+		return output;		
+	},
+	
+	//Retornar o L4 = manager do manager do manager do manager
+	//Retorna o glideRecord
+	//Do Nivel mais baixo seria o GS
+	getL4Manager: function(userID){
+		var manager = [];
+		var output ="";
+		var grU = new GlideRecord('sys_user');
+		grU.addQuery('sys_id',userID);
+		grU.query();
+		grU.next();
+		if(grU.manager){
+			output=this.getUser(grU.manager.manager.manager.manager);//.manager.getDisplayValue()+' -&gt; '+output;
+			manager.push(grU.getValue("sys_id"));
+			manager.push(grU.manager.getDisplayValue());
+
+		}
+		return output;		
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//Retornar cargo especifico superintendente
+	//indexOf('bison', 2)
+	getSupex: function(userID){
+		var currentUser = new GlideRecord('sys_user');
+		if (currentUser.get(userID)) {
+			var manager = currentUser.manager;
+			while (manager) {
+				var managerUser = new GlideRecord('sys_user');
+				if (managerUser.get(manager)) {
+					if (managerUser.title.toLowerCase().includes('superintendente')) {
+						return managerUser;
+						}
+					manager = managerUser.manager;
+					} else {
+						// gerente não encontrado para po loopManager record not found, break the loop -
+						break;
+						}
+			}//Fim while
+		}//Fim IF userID
+	//Se o usuario não tem um superior retorna nulo	
+	// If the current user is a superintendente or doesn't have a superior with the role, return null
+    return null;
+		
+	},
+	
+	//Retornar cargo especifico superintendente ou diretor
+	getSupexOrDirector: function(userID){
+		
+		var currentUser = new GlideRecord('sys_user');
+		if (currentUser.get(userID)) {
+			var manager = currentUser.manager;
+			
+			while (manager) {
+				gs.log("manager = " + currentUser.manager.name);
+				var managerUser = new GlideRecord('sys_user');
+				if (managerUser.get(manager)) {
+					var managerTitle = managerUser.title.toLowerCase();
+					// Verificar se o superior é um superintendente
+					if (managerTitle.includes('superintendente')) {
+						return managerUser;
+					}else if (managerTitle.includes('diretor')) { // Verificar se o superior é um diretor
+                    return managerUser;
+					}
+                // Se não for superintendente ou diretor, continuar subindo na hierarquia
+                //manager = managerUser.manager;
+            } else {
+                //Se não possuir um gerente para o loop /  Manager record not found, break the loop
+                break;
+            }
+        }
+    }
+
+    // Se o usuário atual é um superintendente ou diretor, ou não tem um superior com esses papéis, retornar null
+    return null;
+},
+	
+	
+	//Retornar toda hierarquia	em texto
+	getPathtManager: function(userID){
+		var level = 0;
+		var path = "";
+		level++;
+  var sep = level==1?level + ". " :" -&gt; " + level + ". ";
+  var grU = new GlideRecord('sys_user');
+  grU.addQuery('sys_id',userID);
+  grU.query();
+  if(grU.next()){
+    if(grU.manager){
+      path += sep + grU.getDisplayValue() + this.getPathManager(grU.manager.getValue(),path,level);
+    }else{
+      path += sep + grU.getDisplayValue();
+    }
+	}
+  return path;
+	},
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//como executar
+	//var objHi = new global.hierarchy();
+	//objHi.processL5();
+	
+	//Executa hierarquia L2
+	processL2: function(userID){
+		var userGr = new GlideRecord('sys_user');
+		var userGr2;
+		
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		//userGr.addEncodedQuery("manager!=NULL^titleLIKEgerente");
+			
+		//userGr.setLimit(10); //Limite de número de registros
+		// Executar a consulta
+		userGr.query();
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			//if (userGr.manager.manager.title.toLowerCase.indexOf('superintendente')!== -1) {
+			if (userGr.manager.manager){	
+				this.processUserL2(userGr, userGr.manager.manager);
+
+				//gs.info("==&gt;" + userGr.name + "#()" + userGr.sys_id + ")#&gt; " + userGr.manager.name + ":" + userGr.manager.title);
+			}
+		}
+	},
+	
+	processL3: function(userID){
+		var userGr = new GlideRecord('sys_user');
+		var userGr2;
+		
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		//userGr.addEncodedQuery("manager!=NULL^titleLIKEgerente");
+			
+		//userGr.setLimit(10); //Limite de número de registros
+		// Executar a consulta
+		userGr.query();
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			//if (userGr.manager.manager.title.toLowerCase.indexOf('superintendente')!== -1) {
+			if (userGr.manager.manager.manager){	
+				this.processUserL3(userGr, userGr.manager.manager.manager);
+
+				//gs.info("==&gt;" + userGr.name + "#()" + userGr.sys_id + ")#&gt; " + userGr.manager.name + ":" + userGr.manager.title);
+			}
+		}
+	},
+
+	processL4: function(userID){
+		var userGr = new GlideRecord('sys_user');
+		var userGr2;
+		
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		//userGr.addEncodedQuery("manager!=NULL^titleLIKEgerente");
+			
+		//userGr.setLimit(10); //Limite de número de registros
+		// Executar a consulta
+		userGr.query();
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			//if (userGr.manager.manager.title.toLowerCase.indexOf('superintendente')!== -1) {
+			if (userGr.manager.manager.manager.manager){	
+				this.processUserL4(userGr, userGr.manager.manager.manager.manager);
+
+				//gs.info("==&gt;" + userGr.name + "#()" + userGr.sys_id + ")#&gt; " + userGr.manager.name + ":" + userGr.manager.title);
+			}
+		}
+	},
+	processL5: function(userID){
+		var userGr = new GlideRecord('sys_user');
+		var userGr2;
+		
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		//userGr.addEncodedQuery("manager!=NULL^titleLIKEgerente");
+			
+		//userGr.setLimit(10); //Limite de número de registros
+		// Executar a consulta
+		userGr.query();
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			//if (userGr.manager.manager.title.toLowerCase.indexOf('superintendente')!== -1) {
+			if (userGr.manager.manager.manager.manager.manager){	
+				this.processUserL5(userGr, userGr.manager.manager.manager.manager.manager);
+
+				//gs.info("==&gt;" + userGr.name + "#()" + userGr.sys_id + ")#&gt; " + userGr.manager.name + ":" + userGr.manager.title);
+			}
+		}
+	},
+
+	processPath: function(userID){
+		var userGr = new GlideRecord('sys_user');
+		var strPath = "";
+		
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		//userGr.addEncodedQuery("manager!=NULL^titleLIKEgerente");
+			
+		//userGr.setLimit(10); //Limite de número de registros
+		// Executar a consulta
+		userGr.query();
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			//if (userGr.manager.manager.title.toLowerCase.indexOf('superintendente')!== -1) {
+			if (userGr.manager){	
+				strPath = this.getPathtManager(userGr.sys_id);
+				userGr.u_manager_path.setValue(strPath);
+
+				//gs.info("==&gt;" + userGr.name + "#()" + userGr.sys_id + ")#&gt; " + userGr.manager.name + ":" + userGr.manager.title);
+			}
+		}
+	},
+	
+	//Executa hierarquia gerente departamento
+	processGerDepto: function(userID){
+		var palavraProcurada = "superintendente";
+		// Inicializar o GlideRecord para a tabela sys_user
+		var userGr = new GlideRecord('sys_user');
+		var userGr2;
+		
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		// Adicionar uma condição para filtrar usuários com título contendo "GERENTE DEPARTAMENTO"
+		userGr.addQuery('title', 'LIKE', '%GERENTE DEPARTAMENTO%');
+		//userGr.setLimit(200); //Limite de número de registros
+		// Executar a consulta
+		userGr.query();
+
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			// verificação se o cargo do superior direto é Superintendente
+			//if (userGr.manager.includes('Superintendente')) {
+							
+			if (userGr.manager.title.toLowerCase.indexOf('superintendente')!== -1) {	
+				//userGr2 = this.getManager(userGr.sys_id);
+				this.processUser(userGr, userGr.manager);
+				//return managerUser;
+
+             }
+//			gs.info("==&gt;" + userGr.name + "#()" + userGr.sys_id + ")#&gt; " + userGr.manager.name + ":" + userGr.manager.title);
+
+		}
+	},
+	
+	
+	
+	
+	//Retornar toda hierarquia	
+	processSupex: function(userID){
+		// Inicializar o GlideRecord para a tabela sys_user
+		var userGr = new GlideRecord('sys_user');
+		if (userID)
+			{userGr.addQuery('sys_id', userID);}
+		// Adicionar uma condição para filtrar usuários com título contendo "superintendente"
+		userGr.addQuery('title', 'LIKE', '%superintendente%');
+		//userGr.setLimit(200);
+		// Executar a consulta
+		userGr.query();
+
+		// Iterar sobre os registros encontrados
+		while (userGr.next()) {
+			// BUsca se o cargo é gerente
+			//if (userGr.manager.title.toLowerCase.includes('diretor')) {
+			if (userGr.manager.title.toLowerCase.indexOf('diretor')!== -1) {
+				this.processUser(userGr, userGr.manager);
+				//return managerUser;
+				gs.info("Sys_id do Superintendente: " + userGr.name + "#" + userGr.sys_id + "#" + userGr.manager.name);
+             }
+			
+		}
+	},
+	
+	
+
+
+//Update functions
+
+	//Funcao para atualizar o campo u_manager_l2
+	processUserL2: function(userGr, manID) {
+      // Lógica para buscar o superintendente
+      
+      // Atualiza o campo u_manager_l2 e desativa o workflow
+      userGr.u_manager_l2.setValue(manID);
+      userGr.setWorkflow(false);	//não executar outras rotinas após update
+      userGr.update();
+   },
+
+	//Funcao para atualizar o campo u_manager_l3
+	processUserL3: function(userGr, manID) {
+      // Lógica para buscar o superintendente
+      
+      // Atualiza o campo u_manager_l3 e desativa o workflow
+      userGr.u_manager_l3.setValue(manID);
+      userGr.setWorkflow(false);	//não executar outras rotinas após update
+      userGr.update();
+   },
+
+   //Funcao para atualizar o campo u_manager_l3
+	processUserL4: function(userGr, manID) {
+      // Lógica para buscar o superintendente
+      
+      // Atualiza o campo u_manager_l3 e desativa o workflow
+      userGr.u_manager_l4.setValue(manID);
+      userGr.setWorkflow(false);	//não executar outras rotinas após update
+      userGr.update();
+   },
+
+   //Funcao para atualizar o campo u_manager_l3
+	processUserL5: function(userGr, manID) {
+      // Lógica para buscar o superintendente
+      
+      // Atualiza o campo u_manager_l3 e desativa o workflow
+      userGr.u_manager_l5.setValue(manID);
+      userGr.setWorkflow(false);	//não executar outras rotinas após update
+      userGr.update();
+   },
+   
+    type: 'hierarchy'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 14:13:15&lt;/sys_created_on&gt;&lt;sys_id&gt;381c78b7473331100a89bb30116d4356&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;hierarchy&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_381c78b7473331100a89bb30116d4356&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 16:25:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1267216730</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>4856b9b7473731100a89bb30116d438f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3c4a2cb60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table/>
+<target_name>hierarchy</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>98aa19f73db331105d6e048fd65b28cd</update_guid>
+<update_guid_history>98aa19f73db331105d6e048fd65b28cd:-1267216730,5e7a15f7f5b3311075257fc33d6a699f:978691706,40dec1fb39733110a6fd6e7ff47d589e:-1720271105,c34e01fbc0733110c60076365fda35a4:2055628497,1cad8973857331106520c269cda341e4:1780796014,034d0d7ba7733110b622e34d7ad70c9d:-1860833475,a3f809f3a1733110c772f48480d24524:540720395,6f98017b52333110909323106e2d3d31:-1522911371,d2688d73fd733110bdbae086ccb93f01:-1875070415,f76c30f7d033311052de05ab8a2cf515:-26622184</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_sys_user_u_manager_l3_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_manager_l3" label="Manager L3" language="en" table="sys_user"><sys_documentation action="INSERT_OR_UPDATE"><element>u_manager_l3</element><help/><hint/><label>Manager L3</label><language>en</language><name>sys_user</name><plural>Manager L3s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:53:37</sys_created_on><sys_id>9ba54573477331100a89bb30116d438b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager L3</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_u_manager_l3_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:53:37</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1182376039</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>4c56b9b7473731100a89bb30116d438e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf65f340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L3</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>13a545739773311034de3581e3ea8db4</update_guid>
+<update_guid_history>13a545739773311034de3581e3ea8db4:1182376039</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_sys_user_u_manager_path_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_manager_path" label="Manager Path" language="en" table="sys_user"><sys_documentation action="INSERT_OR_UPDATE"><element>u_manager_path</element><help/><hint/><label>Manager Path</label><language>en</language><name>sys_user</name><plural>Manager Paths</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 16:21:34</sys_created_on><sys_id>23c9d5f747b331100a89bb30116d43ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager Path</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_u_manager_path_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 16:21:34</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>637605547</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>8456b9b7473731100a89bb30116d438f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3c46e17a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager Path</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e3c919f718b331101edaac199f5a630b</update_guid>
+<update_guid_history>e3c919f718b331101edaac199f5a630b:637605547</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_sys_user_u_manager_l2_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_manager_l2" label="Manager L2" language="en" table="sys_user"><sys_documentation action="INSERT_OR_UPDATE"><element>u_manager_l2</element><help/><hint/><label>Manager L2</label><language>en</language><name>sys_user</name><plural>Manager L2s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:52:57</sys_created_on><sys_id>9d854173477331100a89bb30116d433c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager L2</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_u_manager_l2_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:52:57</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>563758121</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>8856b9b7473731100a89bb30116d438e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf5c0df0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L2</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>69854173f073311066e7dbfa4783a674</update_guid>
+<update_guid_history>69854173f073311066e7dbfa4783a674:563758121</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_sys_user_u_manager_l3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_manager_l3" table="sys_user"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Manager L3&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_manager_l3&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sys_user&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 14:53:37&lt;/sys_created_on&gt;&lt;sys_id&gt;a895c173477331100a89bb30116d4360&lt;/sys_id&gt;&lt;sys_name&gt;Manager L3&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sys_user_u_manager_l3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 14:53:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1729712931</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>8c56b9b7473731100a89bb30116d438d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf65f180000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L3</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>57a54573d2733110e789508c9a807fb2</update_guid>
+<update_guid_history>57a54573d2733110e789508c9a807fb2:1729712931</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_sys_user_u_manager_l5_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_manager_l5" label="Manager L5" language="en" table="sys_user"><sys_documentation action="INSERT_OR_UPDATE"><element>u_manager_l5</element><help/><hint/><label>Manager L5</label><language>en</language><name>sys_user</name><plural>Manager L5s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 14:55:35</sys_created_on><sys_id>0c2641b3477331100a89bb30116d4312</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Manager L5</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_sys_user_u_manager_l5_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 14:55:35</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1875355421</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>c056b9b7473731100a89bb30116d438f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf82aaa0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L5</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c82641b3d473311080253bacc4a6412e</update_guid>
+<update_guid_history>c82641b3d473311080253bacc4a6412e:-1875355421</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_sys_user_u_manager_l2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_manager_l2" table="sys_user"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Manager L2&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_manager_l2&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sys_user&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 14:52:56&lt;/sys_created_on&gt;&lt;sys_id&gt;f655017b473331100a89bb30116d431f&lt;/sys_id&gt;&lt;sys_name&gt;Manager L2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sys_user_u_manager_l2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 14:52:56&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-114112541</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>c456b9b7473731100a89bb30116d438d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3bf5c0b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager L2</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e98541738a733110ae0c0128d3a02b72</update_guid>
+<update_guid_history>e98541738a733110ae0c0128d3a02b72:-114112541</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_sys_user_u_manager_path</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_manager_path" table="sys_user"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Manager Path&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_manager_path&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;1000&lt;/max_length&gt;&lt;name&gt;sys_user&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 16:21:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d8b991fb477331100a89bb30116d43fe&lt;/sys_id&gt;&lt;sys_name&gt;Manager Path&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sys_user_u_manager_path&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 16:21:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-355329283</payload_hash>
+<remote_update_set display_value="Hierarchy">8056b9b7473731100a89bb30116d438d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-24 18:26:08</sys_created_on>
+<sys_id>c456b9b7473731100a89bb30116d438e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18d3c46e1560000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-24 18:26:08</sys_updated_on>
+<table>sys_user</table>
+<target_name>User.Manager Path</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a7c919f741b331101ae5e17781a78e09</update_guid>
+<update_guid_history>a7c919f741b331101ae5e17781a78e09:-355329283</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
